@@ -1,9 +1,9 @@
-import { Pet } from "./Pet.js";
+import { Bird } from "./Bird.js";
 
-class Dog extends Pet {
+class Parrot extends Bird {
     constructor(name, color, sound) {
         super(name, color, sound);
     }
 }
 
-export { Dog };
+export { Parrot };
